@@ -1,0 +1,9 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+}
+main > * {
+  border: 2px solid red;
+  min-height: 500px;
+}
